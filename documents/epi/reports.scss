@@ -1,0 +1,32 @@
+/*-- scss:defaults --*/
+// Font
+$web-font-path: "https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap";
+
+$h1-font-size: 2rem;
+$h2-font-size: 1.75rem;
+$h3-font-size: 1.25rem;
+
+// Base document colors
+//  $link-color: #080967;
+$primary: #3bb2bb !default;
+
+$blue:    #080967 !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #E16652 !default;
+$red:     #9F1928 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffce67 !default;
+$green:   #56cc9d !default;
+$teal:    #009BA6 !default;
+$cyan:    #009BA6 !default;
+
+// Code blocks
+$code-block-bg-alpha: -.4;
+$code-block-bg: #e5e5e5 !default;
+
+.quarto-title-banner {
+ margin-bottom:0.25em;
+ color:#000000;
+ background:#3bb2bb
+}
